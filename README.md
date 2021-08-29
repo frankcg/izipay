@@ -1,23 +1,23 @@
 # Reto Tecnico IZIPAY | Frank Laura Borja
 
 **Herramientas Aplicadas :**
-> Spring Data JPA
-> H2 Database
-> Spring Web
-> Lombok
-> Hibernate
-> Java 8
-> Maven
+>Spring Data JPA
+>H2 Database
+>Spring Web
+>Lombok
+>Hibernate
+>Java 8
+>Maven
 
 **Consideraciones:**
-> Se realizo un Crud de Alumnos y se realizo una carga previa de registros.
-> La app corre en el **puerto 9091**
+>Se realizo un Crud de Alumnos y se realizo una carga previa de registros.
+>La app corre en el **puerto 9091**
 
 **Postman**
 
-> http://localhost:9091/api/v1/alumno | Method: GET
-> http://localhost:9091/api/v1/alumno/1 | Method: GET
-> http://localhost:9091/api/v1/alumno | Method: POST
+>http://localhost:9091/api/v1/alumno | Method: GET
+>http://localhost:9091/api/v1/alumno/1 | Method: GET
+>http://localhost:9091/api/v1/alumno | Method: POST
 ```sh
 {
     "nombre" : "Frank",
@@ -26,7 +26,7 @@
     "dni" : "73191639"
 }
 ```
-> http://localhost:9091/api/v1/alumno/1 | Method: PUT
+>http://localhost:9091/api/v1/alumno/1 | Method: PUT
 ```sh
 {
     "nombre" : "Naysha Lucia",
@@ -35,4 +35,4 @@
     "dni" : "78595748"
 }
 ```
-> http://localhost:9091/api/v1/alumno/1 | Method: DELETE
+>http://localhost:9091/api/v1/alumno/1 | Method: DELETE

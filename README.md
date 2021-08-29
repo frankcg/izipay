@@ -1,6 +1,7 @@
 # Reto Tecnico IZIPAY | Frank Laura Borja
 
 **Herramientas Aplicadas :**
+```sh
 >Spring Data JPA
 >H2 Database
 >Spring Web
@@ -8,7 +9,7 @@
 >Hibernate
 >Java 8
 >Maven
-
+```
 **Consideraciones:**
 >Se realizo un Crud de Alumnos y se realizo una carga previa de registros.
 >La app corre en el **puerto 9091**
